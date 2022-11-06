@@ -35,7 +35,7 @@
 
       <v-toolbar-title>Laravel Documents</v-toolbar-title>
     </v-app-bar>
-
+ 
     <v-main>
          <router-view></router-view>
    
