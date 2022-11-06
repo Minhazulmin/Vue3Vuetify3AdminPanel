@@ -5,6 +5,8 @@ const routes = [
         children: [
             // For Home page
             { path: '/', component: () => import('../views/Index.vue')},
+            { path: '/tab', component: () => import('../components/Tab.vue')},
+            { path: '/alerts', component: () => import('../components/Alerts.vue')},
         ],
        
 
